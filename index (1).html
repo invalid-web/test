@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Creative Developer</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo">YOUR<span>.NAME</span></div>
+  <nav id="main-nav">
+    <button id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-list">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Creative Developer &mdash; 3D / Web / Interactive</p>
+      <h1>I build immersive digital experiences.</h1>
+      <p class="lead">Three.js scenes, WebGL experiments, and interfaces that feel alive.</p>
+      <a href="#work" class="btn">View Work</a>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <h2 class="section-title">Selected Work</h2>
+    <div class="grid" id="project-grid">
+      <article class="card">
+        <div class="card-media placeholder-1"></div>
+        <div class="card-body">
+          <h3>Project One</h3>
+          <p>Short description of the project, tech used, and outcome.</p>
+          <div class="tags"><span>Three.js</span><span>WebGL</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-media placeholder-2"></div>
+        <div class="card-body">
+          <h3>Project Two</h3>
+          <p>Short description of the project, tech used, and outcome.</p>
+          <div class="tags"><span>React</span><span>Supabase</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-media placeholder-3"></div>
+        <div class="card-body">
+          <h3>Project Three</h3>
+          <p>Short description of the project, tech used, and outcome.</p>
+          <div class="tags"><span>PixiJS</span><span>GLSL</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-media placeholder-4"></div>
+        <div class="card-body">
+          <h3>Project Four</h3>
+          <p>Short description of the project, tech used, and outcome.</p>
+          <div class="tags"><span>Game Design</span><span>JS</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="section alt">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <p>I'm a developer and designer focused on 3D graphics, creative coding, and interfaces with atmosphere. I like liminal spaces, Y2K aesthetics, and pushing WebGL further than it wants to go.</p>
+      <p>Based in Philadelphia. Available for freelance and collaboration.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <ul class="skills-list">
+      <li>JavaScript / TypeScript</li>
+      <li>Three.js / WebGL</li>
+      <li>HTML / CSS</li>
+      <li>PixiJS</li>
+      <li>GLSL Shaders</li>
+      <li>UI / UX Design</li>
+      <li>Python</li>
+      <li>Supabase</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section alt">
+    <h2 class="section-title">Contact</h2>
+    <p class="lead">Have a project in mind? Let's talk.</p>
+    <a href="mailto:you@example.com" class="btn">Email Me</a>
+    <div class="socials">
+      <a href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Your Name. Built with HTML, CSS &amp; JS. Hosted on GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
